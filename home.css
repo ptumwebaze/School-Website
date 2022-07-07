@@ -1,0 +1,6 @@
+body{background-color: cyan; text-align: center;   
+   background-size:100%;
+  background-position: center;}
+
+marquee{margin-top: 600px; font-size: 24px; color: cyan;}
+p1{margin-top: 400px; font-size: 24px; color: blue; background-color: yellow;}
