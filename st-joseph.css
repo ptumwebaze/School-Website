@@ -1,0 +1,24 @@
+#slider .flex-next,
+#slider .flex-prev {
+  /* display:none; */
+}
+​
+#carousel .flex-viewport {
+  /* margin: 0 40px; */
+}
+​
+.flexslider .slides > li {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  width: 200px;
+  height: 200px;
+  
+}
+#slider,
+.alink {
+  min-height: 300px
+}
+.alink {
+  display: block
+}

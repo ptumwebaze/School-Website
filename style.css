@@ -1,0 +1,269 @@
+body{background-color: #9932CC; text-align: center;}
+p1{color: blue; font-size: 22px}
+p2{color: green; font-size: 22px}
+p3{color: red; font-size: 22px}
+h1{font-size: 32px}
+p{font-size: 22px}
+marquee{color:cyan; background-color:white; font-size: 22px}
+examples {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+example {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+example img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+example:nth-child(1) {
+  position: relative;
+}
+
+example:nth-child(3) {
+  margin-top: 12.475%;
+  margin-bottom:-50%;
+}
+
+example:nth-child(4) {
+  left: 50%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: pink;
+}
+ 
+.labs{
+  color: red;
+  margin-left: 95px;
+}
+footer{
+  background-color: yellow;
+}
+.lab{
+  color: red;
+  margin-top: 0px;
+  margin-left: 480px;
+  border: 2px black red;
+  width: 300px;
+  height: 10px;
+}
+.labz{
+  color: red;
+  margin-left: 950px;
+  padding-top: 0px;
+  
+}
+.site {
+  padding-top: 100px;
+  margin-top: 30px;
+  color: red;
+  text-transform: uppercase;
+  text-decoration-style: inherit;
+  font-style: italic;
+  font-size: 5em;
+}
+.pro{
+  margin-left: 50px;
+  color: red;
+}
+.col{
+  background-color: red;
+}
+header{
+  
+  background-position: center-top;
+  background-size: cover;
+  height: 80vh;
+  width: auto;
+}
+video{
+  width: 300px;
+  height: 150px;
+  margin-left: 80px;
+  align-items: center;
+
+}
+
+
+.dropbtn{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+.display{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: red;}
+/*.dropdown-content a:visited {background-color: yellow;}*/
+.display:hover .dropdown-content {display: block;}
+.display:hover .dropbtn {background-color: #3e8e41;}
+
+
+.display1{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropbtn1{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+.dropdown-content1{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/*.dropdown-content a:visited {background-color: yellow;}*/
+.display1:hover .dropdown-content1 {display: block;}
+.dropdown-content1 a:hover {background-color: red;}
+.display1:hover .dropbtn1 {background-color: #3e8e41;}
+
+
+.dropbtn2{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+.dropbtn3{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+
+/*.display2{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a:hover {background-color: red;}
+.dropdown-content a:visited {background-color: yellow;}
+.display2:hover .dropdown-content2 {display: block;}
+.display2:hover .dropbtn2 {background-color: #3e8e41;}
+designing form
+.display3{
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-content3{
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content3 a:hover {background-color: red;}
+
+.display3:hover .dropdown-content3 {display: block;}
+.display3:hover .dropbtn3 {background-color: #3e8e41;}
+
+/*designing logs*/
+
+/*p1{
+  margin-left: 450px;
+  color: red;
+}
+.ster{
+  margin-left: 450px;
+}
+p2{
+  margin-left: 450px;
+  color: red;
+}
+.sters{
+  margin-left: 450px;
+}
+p3{
+  margin-left: 10px;
+  color: red;
+}
+.sterz{
+  margin-left: 450px;
+}*/
+.dropbtn0{
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+}
+.dropbtn0 :hover {background-color: red;}
+

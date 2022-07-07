@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Utitled</title>
+</head>
+<body>
+	<h1>Fill the registration forms below to open an account with us</h1>
+<p style="color:yellow"><b><i>If registering as an outsider, fill the registration form below</i></b></p><br>
+<form action="libconn.php" method="post" style="font-size: 22px">
+First name:
+<input type="text" name="firstname"/><br>
+<br>
+Second name:
+<input type="text" name="secondname"/><br>
+<br>
+    Email:
+<input type="email" name="email"/ reqiured><br>
+<br>
+Contact:
+<input type="tel" name="contact"/ reqiured><br>
+<br>
+Sex:
+<input type="radio" name="sex" value="Male"/>Male
+<input type="radio" name="sex" value="Female"/>Female
+<br><br>
+country:
+<select name="country">
+<option value="select">Select</option>
+<option value="uganda">Uganda</option>
+<option value="kenya">Kenya</option>
+<option value="tanzania">Tanzania</option>
+<option value="rwanda">Rwanda</option>
+<option value="Burundi">Burundi</option>
+</select><br><br>
+District:
+<select name="district">
+<option value="select">Select</option>
+</select><br><br>
+Sub-County:
+<select name="subcounty">
+<option value="select">Select</option>
+</select><br><br>
+Village:
+<select name="village">
+<option value="select">Select</option>
+</select><br><br>
+    Password:
+<input type="password" name="password"/><br><br>
+Any comments or ideas to us;<br>
+<p><textarea name="comments" cols = "25" rows = "4" style="overflow-y:scroll;">
+</textarea><br><br>
+<input type="submit" value="submit"></p>
+<button type="button"><a href="libsignin.html">Signin</a></button>
+<input type="reset" value="clear and startover"></p>
+</form><br><hr>
+<p style="color:yellow"><i><b>If registering as a student of the school, fill the registration form below</b></i></p><br>
+<form action="stulib.php" method="post" style="font-size: 22px">
+First name:
+<input type="text" name="firstname"/><br>
+<br>
+Second name:
+<input type="text" name="secondname"/><br>
+<br>
+    Email:
+<input type="text" name="email"/><br>
+<br>
+Contact:
+<input type="text" name="contact"/><br>
+<br>
+Sex:
+<input type="radio" name="sex" value="Male"/>Male
+<input type="radio" name="sex" value="Female"/>Female
+<br><br>
+class:
+<select name="class">
+<option value="select">Select</option>
+<option value="Baby Class">Baby Class</option>
+<option value="Middle Class">Middle Class</option>
+<option value="Top Class">Top Class</option>
+<option value="Primary One">Primary One</option>
+<option value="Primary Two">Primary Two</option>
+<option value="Primary Three">Primary Three</option>
+<option value="Primary Four">Primary Four</option>
+<option value="Primary Five">Primary Five</option>
+<option value="Primary Six">Primary Six</option>
+<option value="Primary Seven">Primary Seven</option>
+</select><br><br>
+    Password:
+<input type="password" name="password"/><br><br>
+Any comments or ideas to us;<br>
+<p><textarea name="comments" cols = "25" rows = "4" style="overflow-y:scroll;">
+</textarea><br><br>
+<INPUT TYPE="hidden" NAME="redirect" VALUE="libsignin.html">
+<input type="submit" value="submit"></p>
+<button type="button"><a href="libsignin.html">Signin</a></button>
+<input type="reset" value="clear and startover"></p>
+</form></body>
+</html>
+</body>
+</html>
